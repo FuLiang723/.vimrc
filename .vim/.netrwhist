@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/data/home/leon/jiankongbao/monitor/www/configs'
+let g:netrw_dirhist_2='/data/home/leon/jiankongbao/monitor/www'
+let g:netrw_dirhist_3='/data/home/leon/jiankongbao/monitor/www/configs'
+let g:netrw_dirhist_4='/data/home/leon/jiankongbao/monitor/www/configs/data'
+let g:netrw_dirhist_5='/data/home/leon/jiankongbao/monitor/www/configs'
+let g:netrw_dirhist_6='/data/home/leon/jiankongbao/monitor/www/libdata/content'
+let g:netrw_dirhist_7='/data/home/leon/jiankongbao/monitor/www/templates/email_harry'
