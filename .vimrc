@@ -6,6 +6,10 @@ set hlsearch
 set nomodeline
 set showmatch
 set nu
+set expandtab
+set tabstop=4
+set shiftwidth=4
+:retab
 
 function! Mosh_Tab_Or_Complete()
     if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
@@ -19,8 +23,3 @@ endfunction
 if has("autocmd")
   autocmd FileType php set complete+=k~/.vim/PHP.dict
 endif
-
-set expandtab
-set tabstop=4
-:retab
-set shiftwidth=4
