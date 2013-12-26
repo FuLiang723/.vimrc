@@ -5,7 +5,6 @@ set bs=2
 set hlsearch
 set nomodeline
 set showmatch
-set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
