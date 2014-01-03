@@ -5,10 +5,11 @@ set bs=2
 set hlsearch
 set nomodeline
 set showmatch
-set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set laststatus=2
+set statusline=\ %F%m%r%h\ %w\ \ Dir:\ %r%{getcwd()}%h\ \ \ Line:\ %l/%L:%c
 :retab
 
 function! Mosh_Tab_Or_Complete()
@@ -21,5 +22,5 @@ endfunction
 :inoremap <Tab> <C-R>=Mosh_Tab_Or_Complete()<CR>
 
 if has("autocmd")
-  autocmd FileType php set complete+=k~/.vim/PHP.dict
+  autocmd FileType php set complete+=k~/.vim/phpdict
 endif
